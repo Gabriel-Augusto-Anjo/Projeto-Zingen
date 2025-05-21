@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit; /* isso faz que a fonte receba um reset, tipo o h1 ja nao vai ser grande e comparado ao strong ou span */
+
+    -webkit-font-smoothing: antialiased;  
+    -moz-osx-font-smoothing: grayscale;  /* isso faz com que as fontes do safari, google e firefox entre outras seja mais suave */
+}
