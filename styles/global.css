@@ -90,6 +90,11 @@ ul[role="list"] {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
 @media (width >= 80em) { /* toda tela que for igual a 1280px ou superior ele vai fazer o que estiver aqui dentro, esse e o principio da responsividade */
     :root {
         --fs-lg: 2rem;
