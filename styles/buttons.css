@@ -45,7 +45,7 @@
     font-size: 1.125rem;
 }
 
-.btn[aria-label] { /* essa ganbearra que tem que ser feira para dar efeito de degrade de cor somente no texto e na borda do button */
+.btn[aria-label] { /* essa ganbearra que tem que ser feita para dar efeito de degrade de cor somente no texto e na borda do button */
 
     position: relative;
 
@@ -53,7 +53,7 @@
       content: "";
       position: absolute;
       border-radius: inherit;
-      inset: 1.5px;
+      inset: 1px;
       background-color: var(--bg-color);
     }
 
