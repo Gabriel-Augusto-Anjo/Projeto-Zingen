@@ -46,6 +46,8 @@ html {
     line-height: 1.6;
     color: var(--text-color-primary);
     overflow-x: hidden; /* quer dizer que não vai ter rolamento no eixo x (horizontal) */
+
+    scroll-behavior: smooth; /* vai fazer com que ao clicarmos em um link que te leva pra uma seção da mesma pagina, aconteça de forma suave */
 }
 
 body {
